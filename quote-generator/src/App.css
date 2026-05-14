@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#111;
+}
+
+.container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.card{
+  background:white;
+  padding:40px;
+  border-radius:20px;
+  text-align:center;
+  width:100%;
+  max-width:500px;
+}
+
+.card h1{
+  margin-bottom:20px;
+}
+
+.card p{
+  font-size:20px;
+  margin-bottom:25px;
+}
+
+button{
+  padding:12px 20px;
+  border:none;
+  background:black;
+  color:white;
+  border-radius:10px;
+  cursor:pointer;
+}
